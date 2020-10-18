@@ -1,13 +1,12 @@
 import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
 import React from "react";
-
+import { css } from "styled-components/macro"; //eslint-disable-line
 import AgencyLandingPage from "./demos/AgencyLandingPage";
-
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
- const App = () => {
+export default function App() {
   return (
     <Router>
       <Switch>
@@ -18,4 +17,4 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
     </Router>
   );
 }
- export default App
+
