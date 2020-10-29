@@ -77,7 +77,7 @@ export default () => {
           <LeftColumn>
             <Notification>We have now launched operations in Europe.</Notification>
             <Heading>
-              <span>Hire the best</span>
+              <span>Nodevertex</span>
               <br />
               <SlantedBackground>Marketing Team.</SlantedBackground>
             </Heading>
