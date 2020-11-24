@@ -39,13 +39,18 @@ const DecoratorBlob = styled(SvgDotPattern)(props => [
 ]);
 
 export default ({
-  subheading = "Our Track Record",
+  subheading = "Introduction",
   heading = (
     <>
-      We have been doing this <wbr /> since <span tw="text-primary-500">1999.</span>
+      Fresh perspective in the corporate market!!
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "We are a sincere company and with a straightforward vision." +
+  "We believe that there a great share of knowledge to be learnt from the real-world." +
+  "We stepped in this market in 2019 and to be honest the journey has been extremely adventourous which challenges us to excel better at what we provide." +
+  "Our track record has been very motivating." +
+  "Wanna share that experience with us???? " +
+  "Collaborate with us for a content experience and help us expand and excel at our work.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = StatsIllustrationSrc,
@@ -62,16 +67,12 @@ export default ({
   const defaultStatistics = [
     {
       key: "Clients",
-      value: "2282+"
+      value: "5+"
     },
     {
       key: "Projects",
-      value: "3891+"
+      value: "5+"
     },
-    {
-      key: "Awards",
-      value: "1000+"
-    }
   ];
 
   if (!statistics) statistics = defaultStatistics;

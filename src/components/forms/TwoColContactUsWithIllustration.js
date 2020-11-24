@@ -33,7 +33,7 @@ const SubmitButton = tw(PrimaryButtonBase)`inline-block lg:ml-6 mt-6 lg:mt-0`
 export default ({
   subheading = "Contact Us",
   heading = <>Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "In this technological advanced world and we as one of the servers to the world,we are making it easy for you to get in touch with us and we'll be glad to work with you. For contact :-  nodervertex@gmail.com",
   submitButtonText = "Contact Me",
   formAction = "#",
   formMethod = "get",

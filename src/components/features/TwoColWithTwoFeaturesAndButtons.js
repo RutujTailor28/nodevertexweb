@@ -45,13 +45,13 @@ const FeatureDescription = tw.div`mt-1 text-sm`;
 const PrimaryButton = tw(PrimaryButtonBase)`mt-8 md:mt-10 text-sm inline-block mx-auto md:mx-0`;
 
 export default ({
-  subheading = "Our Expertise",
+  subheading = "Team",
   heading = (
     <>
-      We have the most <span tw="text-primary-500">professional</span> marketing team.
+      <span tw="text-primary-500">Meet our powerpack </span> team!!.
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Our company comprises of ultra-talented,experience designers,developers.We are a team of (no.) members who are working day and night to work towards our goals and to satisfy our client's needs. Lets meet our team members - ",
   primaryButtonText = "See Our Portfolio",
   primaryButtonUrl = "https://timerse.com",
   features = null,

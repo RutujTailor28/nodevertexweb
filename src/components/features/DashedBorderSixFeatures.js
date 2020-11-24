@@ -8,12 +8,12 @@ import defaultCardImage from "../../images/shield-icon.svg";
 
 import { ReactComponent as SvgDecoratorBlob3 } from "../../images/svg-decorator-blob-3.svg";
 
-import SupportIconImage from "../../images/support-icon.svg";
-import ShieldIconImage from "../../images/shield-icon.svg";
-import CustomizeIconImage from "../../images/customize-icon.svg";
-import FastIconImage from "../../images/fast-icon.svg";
-import ReliableIconImage from "../../images/reliable-icon.svg";
-import SimpleIconImage from "../../images/simple-icon.svg";
+import WebApp from "../../images/ProfessionalServices/001-web-site.svg";
+import MobileApp from "../../images/ProfessionalServices/003-smartphone.svg";
+import SEO from "../../images/ProfessionalServices/004-startup.svg";
+import DigitalMarketing from "../../images/ProfessionalServices/005-digital-marketing.svg";
+import UI from "../../images/ProfessionalServices/006-vector.svg";
+import CMS from "../../images/ProfessionalServices/007-smartphone-1.svg";
 
 const Container = tw.div`relative`;
 
@@ -63,15 +63,35 @@ export default () => {
 
   const cards = [
     {
-      imageSrc: ShieldIconImage,
-      title: "Ads Management",
-      description: "We create and manage ads that you need, from creation to deployment. Lorem ipsum donor sit amet consicou."
+      imageSrc: WebApp,
+      title: "Web Application Development",
+      description: "It is basically the tasks related with developing websites and can be  hosted via intranet or internet. It is designed for a wide variety of uses and can be used by anyone.It can be operated through various platforms such as a desktop, laptop, or mobile."
     },
-    { imageSrc: SupportIconImage, title: "Video Marketing" },
-    { imageSrc: CustomizeIconImage, title: "Customer Relation" },
-    { imageSrc: ReliableIconImage, title: "Product Outreach" },
-    { imageSrc: FastIconImage, title: "PR Campaign" },
-    { imageSrc: SimpleIconImage, title: "Product Expansion" }
+    {
+      imageSrc: MobileApp,
+      title: "Mobile App Development",
+      description: "Mobile app development is the creation of software intended to run on mobile devices."
+    },
+    {
+      imageSrc: SEO,
+      title: "Search Engine Optimization",
+      description: "It means the process of improving your site to increase its visibility for relevant searches . It is a fundamental part of digital marketing."
+    },
+    {
+      imageSrc: DigitalMarketing,
+      title: "Digital Marketing",
+      description: "It  is a form of marketing the products and services that includes electronic devices.It  aims to put a marketing message directly in front of  people in the online space."
+    },
+    {
+      imageSrc: UI,
+      title: "UI/UX Design",
+      description: "It brings a design-centric approach to user interface and user experience design, and offers practical,visual communication perspective, rather than focusing on marketing or programming alone."
+    },
+    {
+      imageSrc: CMS,
+      title: "CMS & E-COMMERCE Development",
+      description: "We have expertise in developing an affordable CMS and E-commerce website for you which will definitely help you in developing a business and provide an outstanding experience to the users."
+    }
   ];
 
   return (
@@ -85,9 +105,9 @@ export default () => {
                 <img src={card.imageSrc || defaultCardImage} alt="" />
               </span>
               <span className="textContainer">
-                <span className="title">{card.title || "Fully Secure"}</span>
+                <span className="title">{card.title}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud. Sic Semper Tyrannis. Neoas Calie artel."}
+                  {card.description}
                 </p>
               </span>
             </Card>

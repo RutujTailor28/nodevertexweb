@@ -7,7 +7,9 @@ import { ReactComponent as UserIcon } from "feather-icons/dist/icons/user.svg";
 import { ReactComponent as TagIcon } from "feather-icons/dist/icons/tag.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-3.svg";
-
+import SEO from '../../assets/images/top-view-cloud-with-word-seo.jpg'
+import Advertising from '../../assets/images/advertising.jpg'
+import Social from '../../assets/images/social.jpg'
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 const ThreeColumn = tw.div`flex flex-col items-center lg:items-stretch lg:flex-row flex-wrap`;
@@ -52,31 +54,31 @@ export default ({
 }) => {
   const blogPosts = [
     {
-      imageSrc:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+      imageSrc: SEO,
       author: "Adam Wathan",
       category: "SEO",
       title: "Optimizing your website for your main keyword",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://reddit.com"
+      description: "SEO refers to the process of making a website more visible on a search engine’s results page.According to Andy Betts -" +
+          "SEO has a real opportunity to redefine its role as a pivot point in the modern-day marketing stack." +
+          " There is a very real opportunity for search marketers to align and integrate themselves across content, digital, and marketing communication channels.",
+      url: "#"
     },
     {
-      imageSrc:
-        "https://images.unsplash.com/photo-1479660095429-2cf4e1360472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+      imageSrc: Advertising,
       author: "Owais Khan",
       category: "Advertising",
       title: "Creating The perfect advertisement campaign",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com"
+      description: "Advertising is the engine of growth of media world. It can be defined as a paid version of\n" +
+          "information through a variety of mass media. According the ‘concise oxford dictionary’ the verb, ‘to advertise’ means: to make generally or publicly known.",
+      url: "#"
     },
     {
-      imageSrc:
-        "https://images.unsplash.com/photo-1579869847514-7c1a19d2d2ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+      imageSrc: Social,
       author: "Steve Schoger",
       category: "Social Media",
       title: "Efficient management of your social media assets",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com"
+      description: "The use of social media platforms is used to connect with audience to build  brand, increase sales, and drive website traffic. This includes publishing attractive content on social media profiles, listening to and engagingwith followers, analyzing results, and running social media advertisements.",
+      url: "#"
     }
   ];
   return (
@@ -94,10 +96,10 @@ export default ({
                 <Image imageSrc={post.imageSrc} />
                 <Details>
                   <MetaContainer>
-                    <Meta>
-                      <UserIcon />
-                      <div>{post.author}</div>
-                    </Meta>
+                    {/*<Meta>*/}
+                    {/*  <UserIcon />*/}
+                    {/*  <div>{post.author}</div>*/}
+                    {/*</Meta>*/}
                     <Meta>
                       <TagIcon />
                       <div>{post.category}</div>
