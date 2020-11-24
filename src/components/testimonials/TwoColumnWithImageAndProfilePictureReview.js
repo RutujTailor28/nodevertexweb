@@ -49,11 +49,11 @@ const Description = tw.p`max-w-md text-center mx-auto lg:mx-0 lg:text-left lg:ma
 
 const QuoteContainer = tw.div`relative mt-10 lg:mt-20`;
 const Quote = tw.blockquote`text-center lg:text-left text-sm sm:text-lg lg:text-xl xl:text-2xl`;
-const CustomerInfo = tw.div`mt-6 flex flex-col sm:flex-row items-center justify-center lg:justify-start`;
-const CustomerProfilePicture = tw.img`rounded-full w-20 h-20`;
-const CustomerTextInfo = tw.div`text-center lg:text-left sm:ml-6 mt-2 sm:mt-0`;
-const CustomerName = tw.h5`font-semibold text-xl lg:text-2xl xl:text-3xl text-primary-500`;
-const CustomerTitle = tw.p`font-medium text-secondary-100`;
+// const CustomerInfo = tw.div`mt-6 flex flex-col sm:flex-row items-center justify-center lg:justify-start`;
+// const CustomerProfilePicture = tw.img`rounded-full w-20 h-20`;
+// const CustomerTextInfo = tw.div`text-center lg:text-left sm:ml-6 mt-2 sm:mt-0`;
+// const CustomerName = tw.h5`font-semibold text-xl lg:text-2xl xl:text-3xl text-primary-500`;
+// const CustomerTitle = tw.p`font-medium text-secondary-100`;
 
 const QuotesLeft = tw(QuotesLeftIcon)`w-6 h-6 opacity-75 text-primary-500 inline-block mr-1 -mt-3`;
 const QuotesRight = tw(QuotesRightIcon)`w-6 h-6 opacity-75 text-primary-500 inline-block ml-1 -mt-3`;
