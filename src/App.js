@@ -3,8 +3,7 @@ import "styles/globalStyles.css";
 import React from "react";
 import AgencyLandingPage from "./demos/AgencyLandingPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import ComingSoon from "react-coming-soon";
-// import CommingSoon from './assets/images/newcomming.jpg'
+
 export default function App() {
   return (
     <Router>
