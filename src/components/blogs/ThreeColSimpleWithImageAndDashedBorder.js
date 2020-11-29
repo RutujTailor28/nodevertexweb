@@ -7,7 +7,7 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as TagIcon } from "feather-icons/dist/icons/tag.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-3.svg";
-import SEO from '../../assets/images/top-view-cloud-with-word-seo.jpg'
+import SEO from '../../assets/images/SEO2.jpg'
 import Advertising from '../../assets/images/advertising.jpg'
 import Social from '../../assets/images/social.jpg'
 const Container = tw.div`relative`;
