@@ -1,13 +1,13 @@
 import React from "react";
 import Testimonial from "components/testimonials/TwoColumnWithImageAndProfilePictureReview.js";
-import ReactNativeImage from '../assets/images/react-native.png'
-import Angular from '../assets/images/anguler.png'
-import Veu from '../assets/images/veu.jpeg'
+import ReactNativeImage from '../assets/images/react-native.jpg'
+import Angular from '../assets/images/anguler.jpg'
+import Veu from '../assets/images/veu.jpg'
 import Node from '../assets/images/nodejs.jpg'
 import TS from '../assets/images/ts.jpg'
-import Git from '../assets/images/git.png'
+import Git from '../assets/images/git.jpg'
 import Aws from '../assets/images/aws.jpg'
-import Doceker from '../assets/images/docker.png'
+import Doceker from '../assets/images/docker.jpg'
 const Technologies = () => {
     return(<div>
         <Testimonial
